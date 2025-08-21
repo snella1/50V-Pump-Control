@@ -31,15 +31,14 @@ The program includes:
 This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500 platform. The program is designed to control the Proserv "50V" service pump.
 
 ### Functionality
-- Output control:
-- AR2: On / off 
-- AR3, on/ off
-- AR4, On / off
-- AB1,  0-100%
-- Air Trip on / off
+- `AR2`: On/off, Pressurizing  
+- `AR3`: On/off,Pressurizing speed  
+- `AR4`: On/off, Bleed-off  
+- `AB1`: 0–100 %, Bleed-off speed  
+- `AirTrip`: On/off, pressurizing  
 - Input reading and scaling:
-  - `AI_AR2`: 0–20 bar
-  - `AI_PT`: 0–1000 bar
+  - `AI_AR2`: 0–20 bar, input pressure
+  - `AI_PT`: 0–1000 bar, output pressure
 
 - Basic HMI logic for manual operation and operator feedback
 
