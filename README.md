@@ -63,6 +63,8 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 ### Hydrostatic Drive System In 50V
 ![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
 
+Picture description: 🟢 → Left side  **Low Pressure In**        🔴 **High Pressure Out**  Right side
+
 ### Terminal Mapping
 ![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
 
