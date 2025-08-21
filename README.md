@@ -13,3 +13,6 @@ The program includes:
 - ABB AC500 PLC
 - Control cabinet with HMI (e.g. CP604)
 - Alternatively: ABB AC500-eCo V3 Starter Kit
+
+
+![Pumpesystem skjermbilde](HMI Interface.png)
