@@ -16,9 +16,9 @@ The program includes:
 
 ## System Overview: HMI Interface and system Mapping
 -HMI
-![Pumpesystem skjermbilde](images/HMI%20Interface.png)
+![HMIm](images/HMI%20Interface.png)
 – Hydrostatic System
-![Pumpesystem skjermbilde](images/Hydraulic-Mechanical%20Overview.png)
+![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
 – Terminal Mapping
-![Pumpesystem skjermbilde](images/Input%20channels%20and%20terminal%20numbers.png)
+![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
 
