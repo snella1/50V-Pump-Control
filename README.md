@@ -64,3 +64,6 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 ### Terminal Mapping
 ![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
 
+### Usermanual
+[📘 Brukermanual – PLC Proserv 50V REV.A](Usermanual%20PLC%20proserv%2050V%20REV.A%20.pdf)
+
