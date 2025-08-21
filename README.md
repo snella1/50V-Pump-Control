@@ -1,34 +1,26 @@
-# Proserv Pump Control – ABB AC500 PLC
-
-## Overview
-This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500, designed to control the Proserv "50V" service pump.
-
-
-The program includes:
-- control of control of output (AR2, AR3, AR4, AB1, Air Trip)
-- Read and translation of input:  AI_AR2 (0–20 bar) and AI_PT (0–1000 bar)
-- Basic HMI logic for manual operation and feedback
-
-## Requirements
-- ABB Automation Builder (tested with version 2.7 or newer)
-- ABB AC500 PLC
-- Control cabinet with HMI (e.g. CP604)
-- Alternatively: ABB AC500-eCo V3 Starter Kit
-- ABB Automation Builder LICENSE
-
-## System Overview: HMI Interface and system Mapping
--HMI
-![HMIm](images/HMI%20Interface.png)
-– Hydrostatic System
-![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
-– Terminal Mapping
-![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
-
 
 # Proserv Pump Control – ABB AC500 PLC
 
 ## Overview
-This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500 platform. The program is designed to control the Proserv "50V" service pump.
+
+This repository contains a PLC program written in **Structured Text (ST)** for the **ABB AC500** platform. The program is designed to control the **Proserv 50V service pump**.
+
+## Repository Contents
+
+- **Structured Text code in `.txt` format**  
+  The program files are provided in plain text format to ensure readability for users who do not have a license for Automation Builder.
+
+- **AC500 upload files**  
+  Includes all necessary files required to upload the program to an AC500 PLC.
+
+- **System illustrations**  
+  Diagrams and images are included to describe the system architecture and provide context for the code design.
+
+- **User manual**  
+  A comprehensive guide aimed at end users, covering:
+  - Safe operation and HSE considerations  
+  - Troubleshooting procedures  
+  - General usage instructions  
 
 ### Functionality
 - Output Signals
