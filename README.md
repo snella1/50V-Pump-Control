@@ -58,7 +58,7 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 ### HMI Interface
 ![HMIm](images/HMI%20Interface.png)
 
-### Hydrostatic System
+### Hydrostatic Drive System In 50V
 ![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
 
 ### Terminal Mapping
