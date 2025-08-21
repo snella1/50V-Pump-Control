@@ -15,4 +15,4 @@ The program includes:
 - Alternatively: ABB AC500-eCo V3 Starter Kit
 
 
-![Pumpesystem skjermbilde](HMI Interface.png)
+![Pumpesystem skjermbilde](images/HMI Interface.png)
