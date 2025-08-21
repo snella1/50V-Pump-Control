@@ -19,4 +19,5 @@ The program includes:
 
 ![Pumpesystem skjermbilde](images/Hydraulic-Mechanical%20Overview.png)
 
-![Pumpesystem skjermbilde](images/Input channels and terminal%20numbers.png)
+![Pumpesystem skjermbilde](images/Input%20channels%20and%20terminal%20numbers.png)
+
