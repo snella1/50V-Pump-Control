@@ -1,0 +1,42 @@
+PROGRAM POU_logic
+//Variable
+
+VAR
+    
+// Inputs
+    Messured_pressure_AR2 : REAL;   // Calculated pressure value in Bar
+    Messured_pressure_PT : REAL;    // Measured pressure value in Bar from Pressure Sensor
+
+    // Outputs
+    Set_AO_AB1 : INT;      // Desired valve opening (0-100%)
+    Set_AO_AR2 : INT;      // Desired opening of valve for AR2 (0-10)
+
+    // Constants
+    Range_Max : REAL := 27656;    // Maximum range value for conversion
+    Scale_PT : REAL := 1000;      // Scaling factor for pressure transmitter
+	Scale_AR2 : REAL := 10; 
+	Scale_AB1 : REAL := 100;   
+	Button_AR3: BOOL := FALSE;
+	Button_AR4: BOOL := FALSE;
+	Button_Air_Trip: BOOL := FALSE;; //	Panel to manipulate Air Trip
+	
+END_VAR
+
+------------//Comand screen-------------------------------------------------------------
+
+//OUTPUT
+
+	DO_0_AR3 := Button_AR3; // Button_AR3 styres av displayet 
+	DO_1_AR4 := Button_AR4;	// Button_AR4 styres av displayet
+	DO_2_Air_Trip := Button_Air_Trip; // Button_Air_Trip styres av displayet
+	AO_AB1 := REAL_TO_INT( (Set_AO_AB1 / Scale_AB1) * Range_Max ); // Max trykk 100%. Set_AO_AB1 styres av displayet
+	AO_AR2 := REAL_TO_INT( (Set_AO_AR2 / Scale_AR2) * Range_Max ); // åpning av ventil Ar2. Set_Set_AO_AR2 styres av displayet
+
+//INPUT
+
+	// Lese trykket fra AI_AR2 (analog input INT, 0-20 Bar)
+	Messured_pressure_AR2 := (INT_TO_REAL(AI_AR2) / Range_Max) * Scale_AR2;  //max trykk = 20 /denne er målt: 4mA = 0 20 = 1000 (-23.7 = ikke noe signal)
+	
+	// Lese trykket fra AI_PT (analog input INT, 0-1000 Bar)
+	Messured_pressure_PT := (INT_TO_REAL(AI_PT) / Range_Max) * Scale_PT;  //max trykk = 1000   /denne er målt: 4mA = 0 20 = 1000 (-1184 = ikke noe signal)
+	
