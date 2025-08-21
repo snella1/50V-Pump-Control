@@ -3,9 +3,10 @@
 ## Overview
 This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500, designed to control the Proserv "50V" service pump.
 
+
 The program includes:
-- Valve control (AR2, AR3, AR4, AB1, Air Trip)
-- Pressure monitoring via AI_AR2 (0–20 bar) and AI_PT (0–1000 bar)
+- control of control of output (AR2, AR3, AR4, AB1, Air Trip)
+- Read and translation of input:  AI_AR2 (0–20 bar) and AI_PT (0–1000 bar)
 - Basic HMI logic for manual operation and feedback
 
 ## Requirements
@@ -13,6 +14,7 @@ The program includes:
 - ABB AC500 PLC
 - Control cabinet with HMI (e.g. CP604)
 - Alternatively: ABB AC500-eCo V3 Starter Kit
+- ABB Automation Builder LICENSE
 
 ## System Overview: HMI Interface and system Mapping
 -HMI
@@ -21,4 +23,33 @@ The program includes:
 ![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
 – Terminal Mapping
 ![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
+
+
+# Proserv Pump Control – ABB AC500 PLC
+
+## Overview
+This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500 platform. The program is designed to control the Proserv "50V" service pump.
+
+### Functionality
+- Output control: AR2, AR3, AR4, AB1, Air Trip
+- Input reading and scaling:
+  - `AI_AR2`: 0–20 bar
+  - `AI_PT`: 0–1000 bar
+- Basic HMI logic for manual operation and operator feedback
+
+## Requirements
+- ABB Automation Builder (v2.7 or newer)
+- ABB AC500 PLC or AC500-eCo V3 Starter Kit
+- HMI panel (e.g. CP604)
+- Valid Automation Builder license
+
+## System Overview
+### HMI Interface
+`images/HMI Interface.png`
+
+### Hydrostatic System
+`images/Hydraulic-Mechanical Overview.png`
+
+### Terminal Mapping
+`images/Input channels and terminal numbers.png`
 
