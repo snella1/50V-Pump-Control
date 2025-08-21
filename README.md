@@ -37,11 +37,13 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 
 ### Functionality
 - Output Signals
-  - `AR2`: On/off — pressurizing  
-  - `AR3`: 0–100 % — pressurizing speed  
+  - `AR2`: 0–100 % — pressurizing speed 
+  - `AR3`: On/off — pressurizing
+  - `AirTrip`: On/off — pressurizing
+    
   - `AR4`: On/off — bleed-off  
   - `AB1`: 0–100 % — bleed-off speed  
-  - `AirTrip`: On/off — pressurizing  
+  
 - Input Signals (Reading and Scaling)
   - `AI_AR2`: 0–20 bar — input pressure  
   - `AI_PT`: 0–1000 bar — output pressure 
