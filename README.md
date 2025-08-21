@@ -47,7 +47,7 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 - Input Signals (Reading and Scaling) 
   - `AI_PT`: 0–1000 bar — output pressure 
 
-- Basic HMI logic for manual operation and operator feedback [*](#hydrostatic-drive-system-in-50v)
+- Basic HMI logic for manual operation and operator feedback [*](#hmi-interface)
 
 
 ## Requirements
