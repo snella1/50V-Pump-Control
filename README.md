@@ -31,10 +31,16 @@ The program includes:
 This repository contains a PLC program written in **Structured Text (ST)** for the ABB AC500 platform. The program is designed to control the Proserv "50V" service pump.
 
 ### Functionality
-- Output control: AR2, AR3, AR4, AB1, Air Trip
+- Output control:
+- AR2: On / off 
+- AR3, on/ off
+- AR4, On / off
+- AB1,  0-100%
+- Air Trip on / off
 - Input reading and scaling:
   - `AI_AR2`: 0–20 bar
   - `AI_PT`: 0–1000 bar
+
 - Basic HMI logic for manual operation and operator feedback
 
 ## Requirements
@@ -45,11 +51,11 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
 
 ## System Overview
 ### HMI Interface
-`images/HMI Interface.png`
+![HMIm](images/HMI%20Interface.png)
 
 ### Hydrostatic System
-`images/Hydraulic-Mechanical Overview.png`
+![Hydrostatic System](images/Hydraulic-Mechanical%20Overview.png)
 
 ### Terminal Mapping
-`images/Input channels and terminal numbers.png`
+![Terminal Mapping](images/Input%20channels%20and%20terminal%20numbers.png)
 
