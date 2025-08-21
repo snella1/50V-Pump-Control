@@ -33,10 +33,7 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
   Diagrams and images are included to describe the system architecture and provide context for the code design.
 
 - **User manual**  
-  A comprehensive guide aimed at end users, covering:
-  - Safe operation and HSE considerations  
-  - Troubleshooting procedures  
-  - General usage instructions  
+  A comprehensive guide aimed at end users.
 
 ### Functionality
 - Output Signals
