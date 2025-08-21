@@ -16,4 +16,4 @@ The program includes:
 
 
 ![Pumpesystem skjermbilde](images/HMI%20Interface.png)
-![Pumpesystem skjermbilde](images/HMI Interface.png)
+![Pumpesystem skjermbilde](images/Hydraulic-Mechanical%20Overview.png)
