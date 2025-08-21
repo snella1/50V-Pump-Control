@@ -5,6 +5,24 @@
 
 This repository contains a PLC program written in **Structured Text (ST)** for the **ABB AC500** platform. The program is designed to control the **Proserv 50V service pump**.
 
+##  Table of Contents In README
+
+1. [Repository Contents](#repository-contents)  
+2. [Functionality](#functionality)  
+   - [Output Signals](#output-signals)  
+   - [Input Signals](#input-signals)  
+   - [HMI Logic](#hmi-logic)  
+3. [System Overview](#system-overview)  
+   - [HMI Interface](#hmi-interface)  
+   - [Hydrostatic System](#hydrostatic-system)  
+   - [Terminal Mapping](#terminal-mapping)  
+4. [Requirements](#requirements)  
+5. [User Manual](#user-manual)  
+   - [Safe Operation & HSE](#safe-operation--hse)  
+   - [Troubleshooting](#troubleshooting)  
+   - [General Usage](#general-usage)
+
+
 ## Repository Contents
 
 - **Structured Text code in `.txt` format**  
