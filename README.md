@@ -18,9 +18,7 @@ This repository contains a PLC program written in **Structured Text (ST)** for t
    - [Terminal Mapping](#terminal-mapping)  
 4. [Requirements](#requirements)  
 5. [User Manual](#user-manual)  
-   - [Safe Operation & HSE](#safe-operation--hse)  
-   - [Troubleshooting](#troubleshooting)  
-   - [General Usage](#general-usage)
+  
 
 
 ## Repository Contents
